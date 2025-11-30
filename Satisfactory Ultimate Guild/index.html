@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfactory Guide: Tips, Tricks, Basic Builds & More</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 0; }
+        .section-padding { padding: 80px 0; }
+        .tip-card { transition: transform 0.2s; }
+        .tip-card:hover { transform: translateY(-5px); }
+        .build-diagram { background: #e9ecef; padding: 20px; border-radius: 10px; font-family: monospace; white-space: pre; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home"><i class="fas fa-industry me-2"></i>Satisfactory Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#intro">Intro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#basics">Basics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips">Tips & Tricks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#builds">Basic Builds</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Master Satisfactory</h1>
+            <p class="lead mb-4">Detailed guides, tips, tricks, and basic factory builds to conquer the alien planet. Build epic factories and automate everything!</p>
+            <a href="#basics" class="btn btn-light btn-lg"><i class="fas fa-rocket me-2"></i>Start Building</a>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section id="intro" class="section-padding bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="text-center mb-5">What is Satisfactory?</h2>
+                    <p>Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!<grok-card data-id="273a29" data-type="citation_card"></grok-card><grok-card data-id="b04cb4" data-type="citation_card"></grok-card></p>
+                    <p>As a Pioneer working for FICSIT Inc., you're dropped onto the planet MASSAGE-2(AB)b with nothing but a scanner and a dream. Your goal: harvest resources, build massive automated factories, and launch parts via the Space Elevator to complete milestones and progress through tiers (up to Tier 9 in 1.0). Features include co-op multiplayer, vehicle travel (trucks, trains, hypertubes), customization, and optimization challenges.<grok-card data-id="f34ba5" data-type="citation_card"></grok-card></p>
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>Satisfactory 1.0 released in September 2024, adding end-game content, performance optimizations, and new features like better multiplayer and UI overhauls.<grok-card data-id="72f18b" data-type="citation_card"></grok-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Basics Section -->
+    <section id="basics" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">Getting Started: Beginner Basics</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 tip-card">
+                        <div class="card-body">
+                            <h5><i class="fas fa-map-marker-alt text-primary me-2"></i>Choose Starting Location</h5>
+                            <p>Rocky Desert is ideal for beginners: abundant early resources like Coal, Sulfur, Quartz, Caterium, and water. Fewer aggressive creatures.<grok-card data-id="8f8d1b" data-type="citation_card"></grok-card></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 tip-card">
+                        <div class="card-body">
+                            <h5><i class="fas fa-search text-primary me-2"></i>Explore First</h5>
+                            <p>Scout for pure resource nodes (they sparkle). Prioritize diverse nodes near your Hub.<grok-card data-id="f1082c" data-type="citation_card"></grok-card></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 tip-card">
+                        <div class="card-body">
+                            <h5><i class="fas fa-unlock text-primary me-2"></i>Unlock the Map Early</h5>
+                            <p>Rush Tier 1 Field Research for the map (300 wires, 300 screws, 100 iron plates). Essential for navigation.<grok-card data-id="0ebef9" data-type="citation_card"></grok-card></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 tip-card">
+                        <div class="card-body">
+                            <h5><i class="fas fa-bolt text-primary me-2"></i>Power Management</h5>
+                            <p>Start with Biomass Burners fueled by leaves/wood. Unlock Chainsaw and Solid Biofuel ASAP for efficiency.<grok-card data-id="c497c0" data-type="citation_card"></grok-card></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p>Progress by completing Space Elevator milestones to unlock new tech. Use the MAM (Molecular Analysis Machine) for research.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Tips & Tricks</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card tip-card">
+                        <div class="card-header bg-primary text-white">
+                            <h6><i class="fas fa-mining me-2"></i>Mining</h6>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Use multiple Portable Miners on one node for faster early extraction.<grok-card data-id="095f7d" data-type="citation_card"></grok-card></li>
+                                <li>Power miners separately if needed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card tip-card">
+                        <div class="card-header bg-success text-white">
+                            <h6><i class="fas fa-cogs me-2"></i>Production</h6>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Connect machines directly with belts: Miner → Smelter → Storage.<grok-card data-id="66f1a0" data-type="citation_card"></grok-card></li>
+                                <li>Plan layouts for expansion—avoid spaghetti bases.</li>
+                                <li>Deleting buildings refunds materials!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card tip-card">
+                        <div class="card-header bg-warning text-white">
+                            <h6><i class="fas fa-calculator me-2"></i>Efficiency</h6>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Match belt speeds to production (Mk1: 60/min).<grok-card data-id="80c63c" data-type="citation_card"></grok-card></li>
+                                <li>Use to-do lists (right-click items).</li>
+                                <li>Calculate power/runtime needs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card tip-card">
+                        <div class="card-header bg-info text-white">
+                            <h6><i class="fas fa-lightbulb me-2"></i>General</h6>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Focus on milestones for unlocks like Jump Pads.</li>
+                                <li>Set up temporary productions for bottlenecks (e.g., screws).<grok-card data-id="ccea2f" data-type="citation_card"></grok-card></li>
+                                <li>Explore with vehicles later; start on foot.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Builds Section -->
+    <section id="builds" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">Basic Factory Builds</h2>
+            <p class="text-center mb-5">Simple early-game setups. Scale up as you unlock tech. Use <a href="https://satisfactory-calculator.com/" target="_blank">Satisfactory Calculator</a> for planning.<grok-card data-id="1cbce8" data-type="citation_card"></grok-card></p>
+
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h5>Starter Iron Plates (30/min)</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Pure Iron Node → Full factory.</p>
+                            <div class="build-diagram">
+Mk1 Miner (60 ore/min)
+   ↓ (Mk1 Belt)
+Smelter (30 ingots/min)
+   ↓ Split to 2x
+2x Constructor (Iron Plate: 15/min each)
+   → Merge → Storage
+                            </div>
+                            <p>Power: 4-6 Biomass Burners. Later: Coal generators.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h5>Concrete (40/min)</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Limestone is everywhere—easy early build.</p>
+                            <div class="build-diagram">
+3x Mk1 Miner (Impure nodes, ~60 total)
+   ↓ Manifold
+4x Constructor (Concrete: 15/min each? 
+Wait, actually 40/min total scales)
+   → Storage (use 3-4 constructors for 40+)
+                            </div>
+                            <p>Manifold: Belts fill machines evenly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h5>Screws & Rods (Manifold)</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>From Iron Ingots.</p>
+                            <div class="build-diagram">
+Ingots → Split
+Branch1: Constructor (Rods: 40/min)
+Branch2: 4x Constructor (Screws: 160/min from 40 ingots)
+                            </div>
+                            <p>Great for early motors/rotors.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h5>Basic Copper (Wires/Cables)</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Pure Copper Node.</p>
+                            <div class="build-diagram">
+Mk1 Miner → Smelter (Ingots)
+   ↓ 2x Constructor (Wire: 30/min each)
+      ↓ 2x Assembler (Cable: 15/min each)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-warning text-center">
+                <i class="fas fa-tools me-2"></i>Tip: Build "dirty" early (overclock/underclock later). Use blueprints in-game for replication.
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">More Resources</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-book fa-3x text-primary mb-3"></i>
+                            <h5>Official Wiki</h5>
+                            <a href="https://satisfactory.wiki.gg/" class="btn btn-outline-primary">Visit Wiki<grok-card data-id="0cde0c" data-type="citation_card"></grok-card></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-calculator fa-3x text-success mb-3"></i>
+                            <h5>Calculator</h5>
+                            <a href="https://satisfactory-calculator.com/" class="btn btn-outline-success">Plan Builds<grok-card data-id="5c3cf5" data-type="citation_card"></grok-card></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fab fa-reddit fa-3x text-orange mb-3"></i>
+                            <h5>Reddit</h5>
+                            <a href="https://www.reddit.com/r/SatisfactoryGame/" class="btn btn-outline-danger">Community<grok-card data-id="4bc0da" data-type="citation_card"></grok-card></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-gamepad fa-3x text-info mb-3"></i>
+                            <h5>Official Site</h5>
+                            <a href="https://www.satisfactorygame.com/" class="btn btn-outline-info">Play Now<grok-card data-id="58cac6" data-type="citation_card"></grok-card></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>Explore more guides, tutorials, and community content to enhance your Satisfactory experience!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Satisfactory Guide | Built with ❤️ for Pioneers | Kyuubzatd 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
